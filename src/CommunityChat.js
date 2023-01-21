@@ -5,7 +5,6 @@ import chatEngine from './chat-engine';
 const CommunityChat = () => {
     <ChatEngineWrapper>
         <ChatSocket
-        height="100vh"
             projectID={chatEngine.projectID}
             chatID="142084"
             chatAccessKey="LZ5s9c0YNM01JrZwA7hi"
